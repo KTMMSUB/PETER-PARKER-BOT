@@ -1,5 +1,5 @@
 {
-    "name": "PROFESSOR-BOT",
+    "name": "KT-BOT",
     "description": "the telegram Autofilter bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "stack": "container",
@@ -8,19 +8,19 @@
     "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "5808389519:AAGrJpgDLd6dwN7ksc5YarbBk6Ys6GpQ7eo",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "id27436380",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "5b7b6071e790f6c28f5e05d500e1f6c4",
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": " -1001673104678 -1001690852174",
             "required": false
         },
         "ADMINS": {
@@ -32,7 +32,7 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "-1001295396408",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -50,11 +50,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI.",
+            "description": "mongodb+srv://KTfilter:f@ktfilter.zgvr4yl.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB.",
+            "description": "KTfilter",
             "value": "Cluster0",
             "required": false
         },
